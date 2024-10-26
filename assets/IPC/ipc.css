@@ -52,3 +52,24 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+ul > li:hover {
+    /* Change background color of the list item on hover */
+    background-color: rgb(234, 231, 231) !important;
+}
+
+ul > li > a {
+    /* Default styles for links */
+    color: black !important;
+    text-decoration: none !important;
+}
+.img-lgg   {
+    width: 60px ;
+}
+@media (max-width: 600px) { /* Adjust the max-width value as needed */
+    .img-lgg   {
+        width: 48px !important;
+        margin-top: 6px;
+        position: relative;
+        left: 6px;
+    }
+}
