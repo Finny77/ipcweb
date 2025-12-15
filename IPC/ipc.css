@@ -1,0 +1,108 @@
+
+/* General body settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.titan-title-size-4 {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 63px;
+}
+.titan-title-size-1 {
+    letter-spacing: 4px;
+    font-size: 30px;
+}.navbar-custom .nav li > a {
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px !important; 
+    font-weight: bold !important;
+    color: #000;
+}.navbar-custom {
+    background-color: white !important;
+    border: 0;
+    border-radius: 0;
+    z-index: 1000;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    transition: background, padding 0.4s ease-in-out 0s;
+} .module-small-ipc { 
+    padding: 50px !important; 
+}.bg-dark {
+    background: #2d324b  !important;
+}.module, .module-small {
+    position: relative;
+    padding: 10px !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}.work-descr {
+    color: #311010;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #666;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+ul > li:hover {
+    /* Change background color of the list item on hover */
+    background-color: rgb(234, 231, 231) !important;
+}
+
+ul > li > a {
+    /* Default styles for links */
+    color: black !important;
+    text-decoration: none !important;
+}
+.img-lgg   {
+    width: 60px ;
+}
+@media (max-width: 600px) { /* Adjust the max-width value as needed */
+    .img-lgg   {
+        width: 48px !important;
+        margin-top: 6px;
+        position: relative;
+        left: 6px;
+    }
+}
+
+
+/* Banner styling */
+.banner {
+    background-color: #5b9aa0; /* Deep blue background color */
+    color: white;              /* White text color */
+    height: 100px;             /* Fixed height of 100px */
+    display: flex;             /* Flexbox for centering content */
+    align-items: center;       /* Vertically center content */
+    justify-content: center;   /* Horizontally center content */
+    text-align: center;        /* Center text */
+}
+
+/* Content within the banner */
+.banner-content {
+    font-size: 18px;           /* Default font size */
+}
+
+/* Styling for church name */
+.church-name {
+    font-weight: bold;         /* Bold text for church name */
+    font-size: 20px;           /* Slightly larger font size for emphasis */
+}
+
+/* Styling for service times */
+.service-times {
+    font-style: italic;        /* Italic text for service times */
+    margin-left: 10px;         /* Spacing between church name and service times */
+}
